@@ -1,13 +1,20 @@
-:root {
-  --main-color: #424B54;
-  --accent-color: #129490;
-  --alternate-color: #EAC435;
+body {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  background-color: var(--main-color);
-  color: var(--alternate-color)
+img {
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
 }
-h1, h2, h3 {
-  color: var(--accent-color);
+
+.content {
+  padding: 20px;
+}
+
+form {
+  display: grid;
 }
